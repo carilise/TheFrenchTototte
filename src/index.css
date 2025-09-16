@@ -1,0 +1,10 @@
+@import "tailwindcss";
+/* 
+body {
+  overflow: hidden;
+} */
+
+.fontTartuffo {
+    font-family: 'Tartuffo', serif;
+    font-size: 27.22px;
+}
