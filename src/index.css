@@ -8,3 +8,41 @@ body {
     font-family: 'Tartuffo', serif;
     font-size: 27.22px;
 }
+
+.bg-lines {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.05) 0px,
+    rgba(0, 0, 0, 0.05) 1px,
+    transparent 2px,
+    transparent 200px
+  );
+}
+
+.bg-lines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(250, 246, 243, 1), rgba(250, 246, 243, 0.7), rgba(250, 246, 243, 1));
+  pointer-events: none;
+}
+
+.bg-card-gradient {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 40%,
+    #eaf4f9 60%,
+    #cce4f0 100%
+  );
+}
+
+.bg-innovante-gradient {
+  background: linear-gradient(
+    to top,
+    #fbe3e3 0%,
+    #e3f0f9 40%,
+    #ffffff 80%
+  );
+}
+

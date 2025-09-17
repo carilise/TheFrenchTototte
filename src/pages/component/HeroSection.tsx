@@ -8,7 +8,7 @@ export default function HeroSection() {
       style={{ backgroundImage: `url(${heriImage})` }}
     >
       {/* Bloc central */}
-      <div className="flex flex-col items-center text-center px-4 space-y-4 fontTartuffo pt-[54vh] md:pt-[58vh] lg:pt-[63vh]">
+      <div className="relative flex flex-col items-center text-center px-4 space-y-4 fontTartuffo pt-[54vh] md:pt-[58vh] lg:pt-[63vh]">
         {/* Texte haut */}
         <h2 className="text-base md:text-lg font-light text-neutral-800">
           the french tototte
@@ -27,7 +27,7 @@ export default function HeroSection() {
         {/* Lien découvrir */}
         <a
           href="#"
-          className="text-neutral-800 text-sm underline hover:text-blue-500 transition mt-4"
+          className="text-neutral-800 text-sm underline-none hover:text-blue-500 transition mt-4"
         >
           découvrir
         </a>
