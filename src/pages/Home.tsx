@@ -1,9 +1,11 @@
 
 import "../index.css";
 import HeroSection from "./component/HeroSection";
+import Mask from "./component/Mask";
 import Navbar from "./component/Navbar";
+import PlugSection from "./component/PlugSection";
 import ProductSection from "./component/ProductSection";
-import ViergeSection from "./component/ViergeSection";
+// import ViergeSection from "./component/ViergeSection";
 
 
 export default function Home() {
@@ -15,10 +17,13 @@ export default function Home() {
       {/* section HeroBanner  */}
      <HeroSection />
 
-     <ViergeSection />
+     {/* <ViergeSection /> */}
+
      <ProductSection />
 
-     
+     <Mask />
+
+     <PlugSection />
     </>
   );
 }

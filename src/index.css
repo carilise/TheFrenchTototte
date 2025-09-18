@@ -4,9 +4,22 @@ body {
   overflow: hidden;
 } */
 
-.fontTartuffo {
-    font-family: 'Tartuffo', serif;
-    /* font-size: 77.22px; */
+@font-face {
+  font-family: 'Tartuffo';
+  src: url('/src/assets/fonts/Tartuffo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tartuffo';
+  src: url('/src/assets/fonts/Tartuffo-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Tartuffo', serif;
 }
 
 .bg-lines {
@@ -45,4 +58,17 @@ body {
     #ffffff 80%
   );
 }
+
+.bg-card-gris{
+   background-image: linear-gradient(
+    to bottom,
+    #dfd2ca 0%,
+    #e7dcd6 15%,
+    #f9f5f1 60%,
+    #faf6f3 100%
+    #f3efec
+  );
+}
+
+
 
